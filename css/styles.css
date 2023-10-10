@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.skip{
+    position: absolute;
+    top: -40px;
+}
+
+.skip:focus{
+    top: 20px;
+}
+
+nav{
+    width: 100%;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 2vw;
+    margin: auto;
+}
