@@ -80,6 +80,7 @@ nav .current {
 
 #main div p,
 #main div figcaption {
+    line-height: 1.5;
     text-align: center;
     padding: 2vh;
     border: 2px solid black;
@@ -109,4 +110,10 @@ footer {
     padding: 2vh;
     background-color: rgb(55, 61, 32);
     color: white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    img[src$=".gif"] {
+        animation-play-state: paused;
+    }
 }
